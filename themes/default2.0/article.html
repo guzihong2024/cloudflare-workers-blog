@@ -87,8 +87,7 @@
 				<style type="text/css" id="wp-custom-css">@media (max-width: 768px) { #secondary { display:none !important; } #menu-top{ display:none !important; } .site-content { float: left; width: 92%; padding: 30px 2% 0 1%; } .site-description{ display:none !important; } .io-title-description { display: inline-block; margin: 17px 0; padding: 0px 0; float: none; } .wrapper { border: 1px solid #16a1e7 !important; } }</style>
 				<link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.3.2/styles/tomorrow-night-bright.min.css">
 				<script src='https://cdn.staticfile.org/highlight.js/10.3.2/highlight.min.js'></script>
-				{{ &OPT.codeBeforHead }}
-<style>
+				<style>
 /* 文章页顶部大图 */
 .entry-top-image {
     margin: 0 0 20px 0; border-radius: 12px; overflow: hidden;
@@ -246,8 +245,7 @@ body::before { content: ""; position: fixed; top: 0; left: 0; right: 0; bottom: 
 				<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/cfblog/wp-embed.min.js?ver=5.6" id="wp-embed-js"></script>
 				<script>hljs.initHighlightingOnLoad(); //代码高亮
 					</script>
-				{{ &OPT.codeBeforBody }}
-<script>
+				<script>
 // 文章页：提取正文第一张图作为特色图
 document.addEventListener('DOMContentLoaded', () => {
     const article = document.querySelector('#content > article');
